@@ -1,0 +1,30 @@
+:root{
+    --cor_destaque: limegreen;
+}
+
+*::after,
+*::before,
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body, html{
+    height: 100%;
+}
+
+html{
+    overflow: hidden;
+}
+
+body{
+    overflow: auto;
+    /*
+    background-image: url('../img/bg.jpeg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    */
+    background-color: rgb(231, 231, 231);
+}
