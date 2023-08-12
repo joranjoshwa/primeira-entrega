@@ -22,11 +22,62 @@ html{
 
 body{
     overflow: auto;
-    /*
-    background-image: url('../img/bg.jpeg');
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-    */
     background-color: rgb(231, 231, 231);
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    padding: 50vh 0 0 0;
+}
+main .card{
+    transform: translateY(-50%);
+    margin: auto;
+    height: 100%;
+    aspect-ratio: 1/1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.397);
+}
+
+main .card h1{
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--cor_letra)
+}
+
+main .card div{
+    overflow: auto;
+    min-height: 13.7rem;
+}
+
+form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items: center;
+}
+
+form input{
+    margin-bottom: 1rem;
+    border: none;
+    padding: .2rem;
+    border-bottom: solid black 1px;
+    outline: none;
+    width: 100%;
+}
+
+form input[type = "submit"]{
+    background-color: var(--cor_destaque);
+    color: white;
+    border-bottom:none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    width: 50%;
 }
