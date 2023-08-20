@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro do Agricultor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
 </head>
 <body>
     
+  
+  
+  <div class="container">
+        <h2>Agrofam+</h2>
+        <h3>Ótimo! Agora nos ajude <br> com alguns <span class="destaque-verde">dados</span> </h3>
+        
+      
+      
+      
+      <form action="processar_cadastro.php" method="post">
+            <input type="text" name="nome" placeholder="Nome do Agricultor*" ><br>
+            <input type="password" name="senha" placeholder="Crie uma senha*" 
+                   ><br>
+            <input type="text" name="cnpj" placeholder="CNPJ/CPF"><br>
+            <input type="text" name="localizacao" placeholder="Localização*"><br>
+            <input type="text" name="caf" placeholder="Digite o numero CAF">
+        
+        
+        <h4><span class="destaque-verde">Atenção!</span> esta plataforma é de uso exclusivo a agricultores familiares, caso não se enquadre, não prossiga.</h4>
+            
+        
+        
+        <input type="submit" id="BtnConc" value="Concluir">
+        </form>
+   
+  
+  </div>
 </body>
 </html>
