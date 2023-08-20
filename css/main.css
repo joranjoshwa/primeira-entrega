@@ -84,3 +84,19 @@ form input[type = "submit"]{
     margin-top: 2rem;
     bottom: 0px;
 }
+
+form p{
+    font-size: .8rem;
+}
+form p span{
+    color:var(--cor_destaque);
+    text-transform: capitalize;
+}
+
+h2{
+    color: var(--cor_letra2);
+    margin: 0 0 1rem 0;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    text-align: center;
+}
